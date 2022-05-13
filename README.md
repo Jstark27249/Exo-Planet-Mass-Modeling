@@ -10,7 +10,13 @@ This repository contains a jupyter notebook with code for modelings and estimati
 -Pandas
 -Matplotlib
 -Keras
+-Sklearn
+-Numba
+-Cuda* (not required but highly recommended)
+
 
 # Run Instructions
 Assuming you have all the requirements you should just be able to run the jupyter notebook in order
 Guide on how to do that can be found here (https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html)
+
+-I strongly advise having a gpu accelerated system capable of using cuda as it speeds up tensorflow training quite a lot
